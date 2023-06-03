@@ -52,7 +52,7 @@ body {
   position: relative;
   left: 8rem;
   top: 8rem;
-  width: 15rem;
+  width: 18rem;
   justify-content: space-evenly;
 }
 
@@ -65,8 +65,18 @@ button {
   text-shadow: 0 0 1px white;
   transition: background-color 1s ease;
 }
+.Home_Buttons{
+  background: #7c24cc;
+  color: white;
+  padding: 0.5rem;
+  border: 2px solid;
+  border-radius: 5px;
+  text-shadow: 0 0 1px white;
+  text-decoration: none;
+  transition: background-color 1s ease;
+}
 
-button:hover{
+.Home_Buttons:hover{
   background: #0C040C;
   cursor: pointer;
 }
