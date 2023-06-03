@@ -44,7 +44,7 @@ body {
 }
 .intro span {
   font-family: "Times New Roman", Times, serif;
-  color: #b99cdf;
+  color: #bcbcbc;
 }
 
 .Buttons {
@@ -65,7 +65,7 @@ button {
   text-shadow: 0 0 1px white;
   transition: background-color 1s ease;
 }
-.Home_Buttons{
+.Home_Buttons {
   background: #7c24cc;
   color: white;
   padding: 0.5rem;
@@ -76,14 +76,14 @@ button {
   transition: background-color 1s ease;
 }
 
-.Home_Buttons:hover{
-  background: #0C040C;
+.Home_Buttons:hover {
+  background: #0c040c;
   cursor: pointer;
 }
 
-.right_image{
+.right_image {
   position: relative;
-    left: 42rem;
-    bottom: 11rem;
-    z-index: -1;
+  left: 42rem;
+  bottom: 11rem;
+  z-index: -1;
 }
