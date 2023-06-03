@@ -7,7 +7,7 @@ const Body = () => {
       <Typewriters />
       <div className="Buttons hovers">
         <div className="cv">
-          <button>Download Resume</button>
+          <button >Download Resume</button>
         </div>
         <div className="github">
           <button>Visit Github</button>
