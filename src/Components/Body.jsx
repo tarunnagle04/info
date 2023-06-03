@@ -6,10 +6,10 @@ const Body = () => {
   return (
     <>
       <Typewriters />
-      <div className="Buttons hovers">
-        <div className="cv">
+      <div className="Buttons hovers ">
+        <div className="cv bounce-top">
           <a
-            className="Home_Buttons"
+            className="Home_Buttons "
             href={Tarun_Resume}
             download="Tarun_Resume"
           >
@@ -17,13 +17,13 @@ const Body = () => {
           </a>
         </div>
         <div className="github">
-          <a className="Home_Buttons" href="https://github.com/tarunnagle04">
+          <a className="Home_Buttons" href="https://github.com/tarunnagle04" target="blank">
             Visit GitHub
           </a>
         </div>
       </div>
       <div className="right_image">
-        <img src={Home_Image} alt="Full_Stack_Developer" />
+        <img className="slide-in-bck-center" src={Home_Image} alt="Full_Stack_Developer" />
       </div>
     </>
   );

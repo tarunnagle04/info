@@ -1,3 +1,4 @@
+import "./Animation.css"
 import Home from "./Components/Home";
 
 const App = () => {

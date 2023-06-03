@@ -3,8 +3,8 @@ import { Typewriter } from "react-simple-typewriter";
 const Typewriters = () => {
   return (
     <>
-      <span className="intro_container">
-        <h1 className="intro">
+      <span className="intro_container ">
+        <h1 className="intro slide-right">
           Hi , I am <span>Tarun </span>
           <br /> and I am passionate <br />{" "}
           <span style={{ color: "green", fontWeight: "bold" }}>
@@ -12,8 +12,8 @@ const Typewriters = () => {
               words={[
                 "Front End Developer ",
                 "Back End Developer ",
-                "Full Stack Developer ",
-                "MERN Stack Developer",
+                "Full Stack Web Developer ",
+                "MERN Stack Web Developer",
               ]}
               loop={Infinity}
               cursor

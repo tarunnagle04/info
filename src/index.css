@@ -1,11 +1,16 @@
-body {
+* {
   margin: 0;
   padding: 0;
+}
+
+body {
   background: #0404fc;
   /* font-family: 'Times New Roman', Times, serif; */
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: 'Playfair', serif; */
+  font-family: "Poppins", sans-serif;
   overflow-x: hidden;
   overflow-y: hidden;
+  color: white;
 }
 .Navbar {
   font-size: larger;
@@ -17,10 +22,12 @@ body {
 .Name {
   position: relative;
   left: 13rem;
+  top: 1.5rem;
 }
 .active {
   text-decoration: none;
   color: white;
+  font-weight: bolder;
 }
 .NavLinks {
   display: flex;
@@ -40,18 +47,19 @@ body {
 .intro {
   color: white;
   font-weight: lighter;
-  text-shadow: 0 0 2px white;
+  position: relative;
+  right: 6rem;
 }
 .intro span {
   font-family: "Times New Roman", Times, serif;
-  color: #bcbcbc;
+  color: rgb(170, 107, 228);
 }
 
 .Buttons {
   display: flex;
   position: relative;
   left: 8rem;
-  top: 8rem;
+  top: 12rem;
   width: 18rem;
   justify-content: space-evenly;
 }
@@ -66,7 +74,7 @@ button {
   transition: background-color 1s ease;
 }
 .Home_Buttons {
-  background: #7c24cc;
+  background: purple;
   color: white;
   padding: 0.5rem;
   border: 2px solid;
@@ -84,6 +92,50 @@ button {
 .right_image {
   position: relative;
   left: 42rem;
-  bottom: 11rem;
+  bottom: 7rem;
   z-index: -1;
+}
+.Education{
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-size: larger;
+  text-align: center;
+}
+.course{
+  color: rgb(170, 107, 228);
+}
+.Projects{
+  display: flex;
+  position: relative;
+  top: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Anchors a{
+  position: relative;
+  top: 5rem;
+  margin: 5.3rem;
+}
+.imgs{
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgs img{
+  position: relative;
+  top: 8rem;
+  border-radius: 15px;
+  margin: 2rem;
+  width: 12rem;
+  left: 2rem;
+}
+.contacts{
+  text-align: center;
+  position: relative;
+  top: 15rem;
+}
+.contacts a{
+  text-decoration: none;
+  color: white;
 }
