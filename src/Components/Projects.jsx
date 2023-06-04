@@ -65,15 +65,7 @@ const Projects = () => {
           </div>
         </div>
       </h2>
-      <div className="Mobile">
-        <ul type="disc">
-          <li>Ishoppe</li>
-          <li>DigiClock</li>
-          <li>Vlog</li>
-          <li>Alpha</li>
-          <li>To DO App</li>
-        </ul>
-      </div>
+
     </>
   );
 };

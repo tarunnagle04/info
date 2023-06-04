@@ -213,6 +213,7 @@ body::-webkit-scrollbar {
   } */
 }
 
+/*  */
 /* Media queries for even smaller screens */
 @media screen and (max-width: 480px) {
   * {
@@ -261,25 +262,20 @@ body::-webkit-scrollbar {
     width: 16rem;
     left: 1.5rem;
   }
-  .intro span{
-    font-family: 'Times New Roman', Times, serif;
+  .intro span {
+    font-family: "Times New Roman", Times, serif;
   }
-  .imgs{
+  .imgs {
     display: none;
   }
-  .Projects{
+  .Projects {
     display: none;
   }
-  .Mobile{
-    text-align: center;
-    position: relative;
-    top: 5rem;
+  .none {
+    display: none;
   }
-  li{
+  li {
     font-size: larger;
     margin: 1rem;
   }
-}
-.Mobile{
-  display: none;
 }
