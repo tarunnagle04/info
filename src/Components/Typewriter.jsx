@@ -10,10 +10,10 @@ const Typewriters = () => {
           <span style={{ color: "green", fontWeight: "bold" }}>
             <Typewriter
               words={[
-                "Front End Developer ",
-                "Back End Developer ",
-                "Full Stack Web Developer ",
-                "MERN Stack Web Developer",
+                "Front End Developer",
+                "Back End Developer",
+                "FullStack MERN",
+                "Web Developer",
               ]}
               loop={Infinity}
               cursor

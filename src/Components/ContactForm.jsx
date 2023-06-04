@@ -16,7 +16,6 @@ const ContactForm = () => {
             type="text"
             id="name"
             name="name"
-            required
             placeholder="Enter Your Name"
             onChange={handleInputChange}
           />
@@ -29,7 +28,6 @@ const ContactForm = () => {
             id="email"
             name="email"
             placeholder="Enter Your Email"
-            required
           />
           <br />
           <br />
@@ -39,17 +37,16 @@ const ContactForm = () => {
             id="message"
             name="message"
             placeholder="Enter Your Message e.g You are Hired"
-            required
           ></textarea>
           <br />
           <br />
           <button
             onClick={(e) => {
               e.preventDefault();
-              alert("Thank You For Contacting Us");
+              if (Object.keys(formData).length > 0) {
+                alert("Thank You For Contacting Us");
+              }
               console.log(formData);
-                setFormData({});
-              
             }}
             className="Home_Buttons"
             type="submit"

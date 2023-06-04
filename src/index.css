@@ -191,6 +191,7 @@ input {
   border-radius: 0.3rem;
   height: 1rem;
   padding: 0.5rem;
+  transition: box-shadow 0.3s ease-in-out 0s, border 0.3s ease-in-out 0s;
 }
 textarea {
   height: 2rem;
@@ -201,5 +202,84 @@ textarea {
 }
 
 body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 768px) {
+  /* body {
+    font-size: 14px;
+    padding: 10px;
+  } */
+}
+
+/* Media queries for even smaller screens */
+@media screen and (max-width: 480px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    overflow-x: hidden;
+    position: relative;
+  }
+  .Name {
+    /* position: relative; */
+    left: 1rem;
+    top: 1.2rem;
+    font-size: medium;
+  }
+  .Navbar {
+    height: 5rem;
+  }
+  .NavLinks {
+    left: 0rem;
+    font-size: medium;
+    top: 2rem;
+  }
+  .right_image img {
+    width: 25rem;
+    position: relative;
+    right: 43rem;
+    top: 2rem;
+  }
+  .body {
+    position: relative;
+    top: 25rem;
+    right: 7rem;
+  }
+  .wrap {
+    font-size: small;
+    width: 22rem;
+  }
+  .contacts {
+    top: 5rem;
+    width: 15rem;
+  }
+  .forms {
+    top: 10rem;
+    width: 16rem;
+    left: 1.5rem;
+  }
+  .intro span{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .imgs{
+    display: none;
+  }
+  .Projects{
+    display: none;
+  }
+  .Mobile{
+    text-align: center;
+    position: relative;
+    top: 5rem;
+  }
+  li{
+    font-size: larger;
+    margin: 1rem;
+  }
+}
+.Mobile{
   display: none;
 }

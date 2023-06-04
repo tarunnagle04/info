@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
       <Header />
-      <div className="scale-in-center">
+      <div className="scale-in-center ">
         <div className="contacts color-change-5x">
           <a href="mailto:tarunnagle04@gmail.com.com">
             Email : tarunnagle04@gmail.com

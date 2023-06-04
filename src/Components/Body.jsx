@@ -5,7 +5,8 @@ import Tarun_Resume from "../assets/Tarun_Resume.pdf";
 const Body = () => {
   return (
     <>
-      <Typewriters />
+    <div className="body">
+    <Typewriters /> <br /><br />
       <div className="Buttons hovers ">
         <div className="cv bounce-top">
           <a
@@ -22,6 +23,7 @@ const Body = () => {
           </a>
         </div>
       </div>
+    </div>
       <div className="right_image">
         <img className="slide-in-bck-center" src={Home_Image} alt="Full_Stack_Developer" />
       </div>
