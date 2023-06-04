@@ -9,7 +9,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <div className="forms">
+      <div className="forms puff-in-center">
         <form>
           <label htmlFor="name">Name : </label>
           <input

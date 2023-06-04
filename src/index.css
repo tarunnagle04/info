@@ -199,3 +199,7 @@ textarea {
   padding: 0.3rem;
   width: 15rem;
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
