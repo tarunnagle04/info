@@ -17,7 +17,7 @@ const Education = () => {
       image: java,
       title: "JAVA Programming Language with DSA from APNA COLLEGE",
       duration:
-        " Completed 8 Months Full Stack Web Development Training in MERN Stack from PrepBytes.",
+        " Completed 4 Months Java Programming Language with DSA from APNA COLLEGE.",
     },
     {
       image: cap,
