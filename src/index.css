@@ -9,7 +9,7 @@ body {
   /* font-family: 'Playfair', serif; */
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   color: white;
 }
 .Navbar {
@@ -95,16 +95,16 @@ button {
   bottom: 7rem;
   z-index: -1;
 }
-.Education{
-  font-family: 'Times New Roman', Times, serif;
+.Education {
+  font-family: "Times New Roman", Times, serif;
   color: white;
   font-size: larger;
   text-align: center;
 }
-.course{
+.course {
   color: rgb(170, 107, 228);
 }
-.Projects{
+.Projects {
   display: flex;
   position: relative;
   top: 2rem;
@@ -112,17 +112,17 @@ button {
   align-items: center;
 }
 
-.Anchors a{
+.Anchors a {
   position: relative;
   top: 5rem;
   margin: 5.3rem;
 }
-.imgs{
+.imgs {
   display: flex;
   justify-content: space-between;
 }
 
-.imgs img{
+.imgs img {
   position: relative;
   top: 8rem;
   border-radius: 15px;
@@ -130,12 +130,72 @@ button {
   width: 12rem;
   left: 2rem;
 }
-.contacts{
+.contacts {
   text-align: center;
   position: relative;
-  top: 15rem;
+  top: 12rem;
+  width: 35rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  left: 2rem;
 }
-.contacts a{
+.contacts a {
   text-decoration: none;
   color: white;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.edu-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+  color: #02fcdb;
+  margin-bottom: 1rem;
+}
+.edu-image {
+  width: 10rem;
+  margin-right: 1rem;
+  border-radius: 2rem;
+}
+.edu_container {
+  width: 35rem;
+  display: flex;
+  text-align: center;
+}
+.box_details {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.forms {
+  background: whitesmoke;
+  color: black;
+  padding: 2rem;
+  width: 20rem;
+  position: relative;
+  left: 52rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+label {
+  margin: 3rem;
+}
+input {
+  border: 1px solid purple;
+  border-radius: 0.3rem;
+  height: 1rem;
+  padding: 0.5rem;
+}
+textarea {
+  height: 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid purple;
+  padding: 0.3rem;
+  width: 15rem;
 }
