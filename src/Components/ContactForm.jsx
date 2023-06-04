@@ -48,6 +48,9 @@ const ContactForm = () => {
               e.preventDefault();
               alert("Thank You For Contacting Us");
               console.log(formData);
+              ()=>{
+                setFormData({});
+              }
             }}
             className="Home_Buttons"
             type="submit"
